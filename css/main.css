@@ -1763,9 +1763,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-image: url(../images/me-bg_mobile.jpg);
   background-repeat: no-repeat;
    background-position: center 0% ;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
+  -webkit-background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-size:100% auto;
   min-height:auto;
 
   }
