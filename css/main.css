@@ -1719,7 +1719,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 600px) {
   #home {
-    min-height: 702px;
+   background-position: center 0%;
+  -webkit-background-size:600px 400px;
+  -moz-background-size:600px 400px;
+  background-size: 600px 400px;
+  min-height:auto;
   }
   .home-content-tablecell .row {
     max-width: 480px;
@@ -1756,9 +1760,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 400px) {
   #home {
    background-position: center 0%;
-  -webkit-background-size:100px 100px;
-  -moz-background-size: 100px 100px;
-  background-size: 100px 100px;
+  -webkit-background-size:400px 266px;
+  -moz-background-size:400px 266px;
+  background-size: 400px 266px;
   min-height:auto;
   }
   .home-content-tablecell .row {
