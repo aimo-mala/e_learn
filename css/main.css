@@ -1759,11 +1759,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 400px) {
   #home {
+
+  background-image: url(../images/me-bg_mobile.jpg);
+  background-repeat: no-repeat;
    background-position: center 0% ;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
   min-height:auto;
+
   }
 
   .home-content-tablecell .row {
