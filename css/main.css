@@ -1512,11 +1512,11 @@ header .header-logo a {
   background-image: url(../images/me-bg.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
-  -webkit-background-size: cover;
+  -webkit-background-size:cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 804px;
+  min-height:100%;
   position: relative;
 }
 #home .overlay {
@@ -1717,9 +1717,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
-  #home {
-    min-height: 702px;
+  #home {  
+    background-size:auto auto;
+    min-height:400px;
   }
+
 
   .home-content-tablecell .row {
     max-width: 480px;
@@ -1755,6 +1757,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 400px) {
   #home {
+    background-size:auto auto;
     min-height: 654px;
   }
 
